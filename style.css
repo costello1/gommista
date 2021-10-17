@@ -6,3 +6,11 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+  background: #333;
+}
