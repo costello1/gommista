@@ -1,0 +1,30 @@
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+   background-position: center;
+   background-image: url(img/ruota1.gif);
+   background-repeat: no-repeat;
+   background-size: 70%;
+   color: #fff;
+   padding: 0 8%;
+}
+.header_title{
+    position: absolute;
+    top: 30%;
+}
+.hero h1{
+    font-size: 75px;
+    margin-top: 12px;
+}
+.hero button{
+    background: #393939;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

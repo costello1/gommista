@@ -1,7 +1,7 @@
 :root{
     --primary: #8c38ff;
     --light: #EEEEEE;
-    --dark: #212121;
+    --dark: #000;
 }
 
 .container_navbar{
@@ -20,15 +20,18 @@ nav{
     z-index: 99;
     background-color: var(--dark);
     padding: 16px 32px;
-    border-bottom: 3px solid var(--primary);
+   /* border-bottom: 3px solid var(--primary);*/
 }
-h1{
+.logo{
+    width: 50px;
+}
+/*h1{
     color: #fff;
     font-size: 28px;
     font-weight: 900;
     letter-spacing: 2px;
     text-transform: uppercase;
-}
+}*/
 .hamburger{
     display: block;
     position: relative;
