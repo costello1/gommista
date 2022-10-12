@@ -76,6 +76,7 @@
     background: #fff;
     transform-origin: bottom right;
     animation: animate 1s linear infinite;
+    border-radius: 50%;
 }
 @keyframes animate {
     0%{

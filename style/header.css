@@ -1,4 +1,5 @@
 .hero{
+    overflow: hidden;
     min-height: 100vh;
     width: 100%;
     background-color: #000;
@@ -27,4 +28,19 @@
     font-weight: 500;
     letter-spacing: 1px;
     cursor: pointer;
+}
+.prova-foto{
+    position: absolute;
+    width: 25%;
+    top: 86px;
+    left: 0;
+    
+}
+.prova-foto1{
+    width: 25%;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
 }
