@@ -5,7 +5,7 @@ footer
 
     position: relative;
     width: 100%;
-    background: #3586ff;
+    background: #E31F26;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -61,6 +61,10 @@ footer p
     margin-bottom: 10px;
     font-size: 1.1em;
 }
+footer .delete_color{
+    color: inherit;
+    text-decoration: none;
+}
 footer .wave
 {
     position: absolute;
@@ -68,7 +72,7 @@ footer .wave
     left: 0;
     width: 100%;
     height: 100px;
-    background: url(../img/wave.png);
+    background: url(../img/wave-red1-removebg1.png);
     background-size: 1000px 100px;
 }
 footer .wave#wave1

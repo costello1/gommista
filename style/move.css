@@ -43,6 +43,13 @@
     transform-origin: top;
     transform: perspective(500px) rotateX(-25deg);
 }
+.infinite p{
+    opacity: 0.3;
+    text-align: inherit;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
 .shadow{
     position: absolute;
     bottom: -93px;
@@ -77,6 +84,7 @@
     transform-origin: bottom right;
     animation: animate 1s linear infinite;
     border-radius: 50%;
+    overflow: hidden;
 }
 @keyframes animate {
     0%{
@@ -85,4 +93,21 @@
     100%{
         transform: rotate(90deg);
     }
+}
+.gira img{
+    width: 108px;
+    height: 100px;
+    border-radius: 0%;
+    object-fit: cover;
+    /* 
+    filter: invert(100%);
+    filter: contrast(160%);
+    filter: opacity(50%);
+    filter: hue-rotate(180deg);
+    filter: sepia(100%);
+    filter: invert(100%);
+    filter: invert(100%);*/
+    filter: brightness(5); 
+    /* filter: grayscale(125%); */
+    /* filter: saturate(100); */
 }

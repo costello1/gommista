@@ -1,5 +1,5 @@
 :root{
-    --primary: #8c38ff;
+    --primary: #E31F26;
     --light: #EEEEEE;
     --dark: #000;
 }
@@ -17,13 +17,14 @@ nav{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99;
+    z-index: 100000;
     background-color: var(--dark);
     padding: 16px 32px;
    /* border-bottom: 3px solid var(--primary);*/
 }
 .logo{
     width: 50px;
+    filter: brightness(7);
 }
 /*h1{
     color: #fff;
