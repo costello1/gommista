@@ -1,8 +1,14 @@
 const hamburger = document.querySelector('.hamburger');
-
+const menu = document.querySelector(".menu");
 hamburger.addEventListener('click', function () {
-    this.classList.toggle("is-active")
+    hamburger.classList.toggle("is-active");
+    menu.classList.toggle("is-active");
 })
+
+document.querySelectorAll(".menu a").forEach(n => n.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}))
 
 let slideIndex = 0;
 showSlides();

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="style/service.css">
     <link rel="stylesheet" href="style/move.css">
     <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/advertisement.css">
+    <link rel="stylesheet" href="style/maps.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -24,9 +26,9 @@
 
                     <div class="menu">
                         <a href="#" class="is-active">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Project</a>
-                        <a href="#">Contact</a>
+                        <a href="#service">About</a>
+                        <a href="#slider">Project</a>
+                        <a href="#contact">Contact</a>
                     </div>
 
                     <button class="hamburger">
@@ -40,17 +42,20 @@
             <img class="prova-foto" src="img/foto3.png" alt="">
 
             <div class="header_title">
-                <h1 data-aos="zoom-out-right" data-aos-duration="3000" data-aos-easing="ease-in-sine">MA.DA.GOMME<br>E REVISIONI</h1>
-                <button type="button" data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-duration="1500">Contattaci</button>
+                <img class="header_subtitle" src="img/foto2-ma.png" alt="" data-aos="zoom-out-right" data-aos-duration="3000" data-aos-easing="ease-in-sine">
+                <br>
+                <img class="header_subtitle" src="img/foto2 -gomme.png" alt="" data-aos="zoom-out-left" data-aos-duration="3000" data-aos-easing="ease-in-sine">
+                <br>
+                <!-- <h1 data-aos="zoom-out-right" data-aos-duration="3000" data-aos-easing="ease-in-sine">MA.DA.</h1>
+                <h1 data-aos="zoom-out-left" data-aos-duration="3000" data-aos-easing="ease-in-sine">GOMME</h1> -->
+                <button type="button" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Contattaci</button>
             </div>
 
             <img class="prova-foto1" src="img/foto3.png" alt="">
         </div>
     
 
-    <div class="service">
+    <div class="service" id="service">
         <div class="card" data-aos="fade-up" data-aos-duration="1000">
             <div class="icon">
                 <ion-icon name="build-outline" data-aos="fade-up" data-aos-duration="1100"></ion-icon>
@@ -83,7 +88,7 @@
         </div>
     </div>
 
-    <div class="slideshow-container">
+    <div class="slideshow-container" id="slider">
 
         <div class="mySlides fade">
           <div class="numbertext" data-aos="fade-right" data-aos-duration="1000">1 / 3</div>
@@ -142,7 +147,16 @@
         </figure>
       </div> -->
 
-    <div class="move">
+      <div class="maps_container">
+        <div class="banner_maps_left"></div>
+        
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.110175008691!2d13.865671727236546!3d42.975952747058976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13321face4bb796f%3A0xac047333f7117039!2sVia%20Ischia%2C%2088%2C%2063066%20Grottammare%20AP%2C%20Italia!5e0!3m2!1sit!2sis!4v1670318789730!5m2!1sit!2sis" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="banner_maps_right"></div>
+      </div>
+
+    <!-- <div class="move">
         <div class="infinite">
             <p>MD.MA. GOMME</p>
             <div class="shadow"></div>
@@ -152,9 +166,9 @@
                 <img src="img/ruota1.gif" alt="">
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <footer>
+    <footer id="contact">
         <div class="waves">
             <div class="wave" id="wave1"></div>
             <div class="wave" id="wave2"></div>
@@ -182,6 +196,11 @@
         <p>Ma.Da gomme e revisioni snc - via... - 63066 AP - <a class="delete_color" href="tel:123-456-7890">tel. 123456789</a> - <a class="delete_color" href = "mailto: abc@example.com">info@gmail.com</a></p>
         <p>©2022 azienda xxx</p>
     </footer>
+    <!-- <div class="advertisement">
+        <div class="element">
+
+        </div>
+    </div> -->
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

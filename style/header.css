@@ -29,6 +29,11 @@
     letter-spacing: 1px;
     cursor: pointer;
 }
+.header_subtitle{
+    width: 36vw;
+    margin-top: 12px;
+    filter: brightness(5.5);
+}
 .prova-foto{
     position: absolute;
     width: 25%;

@@ -1,0 +1,43 @@
+:root{
+    --del_tutto: rgb(4, 0, 236);
+    --del_dentro: rgb(165, 197, 24);
+}
+
+.advertisement{
+    /* max-width: 1200px;
+    margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E31F26;
+    height: 10vh;
+}
+.advertisement .element{
+    position: fixed;
+    bottom: 0;
+    left: 37%;
+    height: 10%;
+    width: 25%;
+    z-index: 100000;
+    background-color: var(--del_dentro);
+    /* padding: 16px 32px; */
+}
+
+/* prova con position absolute and relative */
+
+/* .advertisement{
+    height: 10vh;
+    background: rgb(4, 0, 236);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.advertisement .element{
+    position: absolute;
+    top: 4%;
+    right: 35%;
+    width: 30%;
+    height: 90%;
+    background: rgb(165, 197, 24);
+} */
